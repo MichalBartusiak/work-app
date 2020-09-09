@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import MainView from "./components/MainView/MainView";
 
 function App() {
   return (
     <div className="App">
-      <h1>Work app</h1>
+      <MainView />
     </div>
   );
 }
