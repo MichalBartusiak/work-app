@@ -1,9 +1,9 @@
 import React from "react";
 const Workers = () => {
   return (
-    <>
-      <h1>Workers</h1>
-    </>
+    <div className="workers">
+      <h2>Workers</h2>
+    </div>
   );
 };
 
