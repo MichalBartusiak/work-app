@@ -22,7 +22,7 @@ function App() {
             </Grid>
             <Grid item xs={12}>
               <RouterSwitch>
-                <Route exact path="/">
+                <Route exact path="/" component>
                   <MainContent />
                 </Route>
                 <Route path="/workers">
